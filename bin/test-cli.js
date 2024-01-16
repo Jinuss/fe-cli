@@ -2,11 +2,12 @@
 console.log("hello Leador")
 
 const program = require('commander')
+const pkg=require('../package.json')
 
 const chalk = require('chalk')
 
 program
-    .version('1.0.0')
+    .version(pkg.version)
     .command('create <app-name>')
     .alias("init")
     .description((chalk.cyan('create a new project')))
