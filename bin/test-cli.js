@@ -1,5 +1,5 @@
 #!/ usr/bin/env node
-console.log("hello Leador")
+console.log("🚀 hello Leador")
 
 const program = require('commander')
 const pkg=require('../package.json')
